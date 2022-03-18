@@ -10,6 +10,9 @@ execute:
   execute_notebooks: force 
 format: jb-book
 root: jbook_example
+defaults:
+  titlesonly: True
 chapters:
 - file: jbook_example.ipynb
+
   
